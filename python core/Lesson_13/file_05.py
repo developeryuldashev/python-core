@@ -1,0 +1,6 @@
+f=open('son_yoz.txt','r')
+s=f.read()
+print(s)
+m=s.split()
+print(m)
+f.close()

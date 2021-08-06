@@ -1,0 +1,10 @@
+n=324
+a=n//100
+b=(n//10)%10
+c=n%10
+k=c*100+b*10+a
+print(k)
+s=str(n)
+s=s[2]+s[1]+s[0]
+n=int(s)
+print(n)

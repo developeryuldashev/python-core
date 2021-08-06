@@ -1,0 +1,7 @@
+f=open('arf_prog.txt','r')
+s=f.read()
+f.close()
+a=list(s.split())
+n=len(a)
+print(a[0],a[1])
+print(a[n-1],a[n-2])

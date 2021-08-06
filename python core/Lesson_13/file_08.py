@@ -1,0 +1,12 @@
+f=open('arf_prog.txt','r')
+s=f.read()
+f.close()
+a=list(s.split())
+n=len(a)
+yangi=open('clone1.txt','w')
+yangi.write(str(a[0]+' '+a[n-1]))
+yangi.close()
+
+readr=open('clone1.txt','r')
+print(readr.read())
+readr.close()

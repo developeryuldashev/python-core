@@ -1,0 +1,9 @@
+x1=1
+y1=1
+x2=4
+y2=3
+a=x2-x1
+b=y2-y1
+p=2*(a+b)
+s=a*b
+print(a,b,p,s)
